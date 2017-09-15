@@ -1,0 +1,12 @@
+package br.com.fast.redshift;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RedshiftApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RedshiftApplication.class, args);
+	}
+}
